@@ -56,4 +56,4 @@ end
 
 
 end
-stay = self.name("Stay")
+stay = song.name("Stay")

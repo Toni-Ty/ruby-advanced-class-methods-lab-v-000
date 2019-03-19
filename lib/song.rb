@@ -46,8 +46,8 @@ def self.new_from_filename(filename)
 end
 
 def self.create_from_filename(filename)
-  title = filename.split(" ")
-  artist = [0]
+  title = filename.split(" - ")
+  artist = title[0]
   song_name, extension = title[1].split(".")
 end
 

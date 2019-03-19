@@ -43,11 +43,6 @@ def self.new_from_filename(filename)
   #save it in the variable "title"
   artist = [0]
   song_name, extension = title[1].split(".")
-
-
-#   song = self.create
-#   song.name =
-# end
 end
 
 

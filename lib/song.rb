@@ -56,4 +56,4 @@ end
 
 
 end
-song = song.new_by_name("Stay")
+song = Song.new_by_name("Stay")

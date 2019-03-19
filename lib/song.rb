@@ -39,10 +39,10 @@ def self.alphabetical
 end
 
 def self.new_from_filename(filename)
-  title = filename.split(" ") #take the argument the user entered and split into an array,
-  #save it in the variable "title"
-  artist = [0] #setting the variable artist to 0 index for the first element in the array
-  song_name, extension = title[1].split(".")
+  song = self.new 
+  song.name = (name.split(" - ")[1].chomp(".mp3"))
+  song.artist_name = (name.split(" - ")[0])
+  song
 end
 
 def self.create_from_filename(filename)

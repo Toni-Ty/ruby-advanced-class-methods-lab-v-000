@@ -45,6 +45,11 @@ def self.new_from_filename(filename)
   song_name, extension = title[1].split(".")
 end
 
+def self.create_from_filename(filename)
+  title = filename.split(" ")
+  artist = [0]
+  song_name, extension = title[1].split(".")  
+end 
 
 # def self.destroy_all
 #   self.all.delete
@@ -57,3 +62,5 @@ end
 
 end
 song = Song.new_by_name("Stay")
+Song.find_by_name("Stay")
+Song.find_by_name("The Middle")

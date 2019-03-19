@@ -52,8 +52,7 @@ def self.create_from_filename(filename)
     @@all << song
     song
 end
-xyz
-end
+
 # def self.destroy_all
 #   self.all.delete
 # end

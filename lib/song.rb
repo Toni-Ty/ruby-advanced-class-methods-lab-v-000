@@ -56,4 +56,4 @@ end
 
 
 end
-stay = song.new("Stay")
+stay = self.new("Stay")

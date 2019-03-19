@@ -38,16 +38,19 @@ def self.alphabetical
   self.all.sort_by { |song| song.name}
 end
 
-def self.new_from_filename(name)
+def self.new_from_filename(filename)
   song = self.new
-  song.name = (name.split(" - ")[1].chomp(".mp3"))
+  song.filename = (name.split(" - ")[1].chomp(".mp3"))
   song.artist_name = (name.split(" - ")[0])
   song
 end
 
-def self.create_from_filename(name)
+# def self.new_from_filename(filename)
+  
+
+def self.create_from_filename(filename)
   song = self.new
-    song.name = (name.split(" - ")[1].chomp(".mp3"))
+    song.filename = (name.split(" - ")[1].chomp(".mp3"))
     song.artist_name = (name.split(" - ")[0])
     @@all << song
     song
@@ -64,6 +67,7 @@ end
 
 
 end
-song = Song.new_by_name("Stay")
-Song.find_by_name("Stay")
-Song.find_by_name("The Middle")
+
+
+
+

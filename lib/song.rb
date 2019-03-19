@@ -56,4 +56,4 @@ end
 
 
 end
-stay = self.new("Stay")
+stay = self.name("Stay")

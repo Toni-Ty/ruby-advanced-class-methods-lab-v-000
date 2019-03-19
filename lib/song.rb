@@ -39,7 +39,8 @@ def self.alphabetical
 end
 
 def self.new_from_filename(filename)
-  title = filename.split(" ")
+  title = filename.split(" ") #take the argument the user entered and split into an array,
+  #save it in the variable "title"
   artist = [0]
   song_name, extension = title[1].split(".")
 

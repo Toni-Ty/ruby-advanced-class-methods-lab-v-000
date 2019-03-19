@@ -41,7 +41,7 @@ end
 def self.new_from_filename(filename)
   title = filename.split(" ") #take the argument the user entered and split into an array,
   #save it in the variable "title"
-  artist = [0]
+  artist = [0] #setting the variable artist to 0 index for the first element in the array
   song_name, extension = title[1].split(".")
 end
 
@@ -56,3 +56,4 @@ end
 
 
 end
+stay = song.new("Stay")

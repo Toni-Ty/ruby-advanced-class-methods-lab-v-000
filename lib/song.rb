@@ -56,4 +56,4 @@ end
 
 
 end
-stay = song.name("Stay")
+song = song.name("Stay")

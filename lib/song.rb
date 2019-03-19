@@ -48,8 +48,8 @@ end
 def self.create_from_filename(filename)
   title = filename.split(" ")
   artist = [0]
-  song_name, extension = title[1].split(".")  
-end 
+  song_name, extension = title[1].split(".")
+end
 
 # def self.destroy_all
 #   self.all.delete
